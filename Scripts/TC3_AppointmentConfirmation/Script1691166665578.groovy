@@ -53,8 +53,6 @@ WebUI.check(findTestObject('Page_CURA Healthcare Service/input_Medicaid_programs
 
 WebUI.delay(2)
 
-WebUI.delay(4)
-
 WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), '31/07/2023')

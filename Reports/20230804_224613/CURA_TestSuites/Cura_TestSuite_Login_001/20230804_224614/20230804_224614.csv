@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cura_TestSuite_Login_001,Chrome 115.0.0.0,,,2023-08-04 22:46:18,2023-08-04 22:46:43,24.559s,PASSED
+,,,,,,,
+Test Cases/TC0_AppointmentPage,Chrome 115.0.0.0,,,2023-08-04 22:46:18,2023-08-04 22:46:28,9.789s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 115.0.0.0,,,2023-08-04 22:46:18,2023-08-04 22:46:27,8.528s,ERROR
+"verifyMatch(getWindowTitle(), ""CURA Healthcare Service"", false)",Chrome 115.0.0.0,,,2023-08-04 22:46:27,2023-08-04 22:46:27,0.066s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-04 22:46:27,2023-08-04 22:46:28,0.715s,PASSED
+,,,,,,,
+Test Cases/TC2_VerifySuccessfulLogin,Chrome 115.0.0.0,,,2023-08-04 22:46:28,2023-08-04 22:46:43,14.509s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 115.0.0.0,,,2023-08-04 22:46:28,2023-08-04 22:46:36,7.971s,ERROR
+"comment(""Login to CURA HEALTHCARE SERVICES "")",Chrome 115.0.0.0,,,2023-08-04 22:46:36,2023-08-04 22:46:36,0.001s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 115.0.0.0,,,2023-08-04 22:46:36,2023-08-04 22:46:36,0.000s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 115.0.0.0,,,2023-08-04 22:46:36,2023-08-04 22:46:38,1.635s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 115.0.0.0,,,2023-08-04 22:46:38,2023-08-04 22:46:39,0.959s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 115.0.0.0,,,2023-08-04 22:46:39,2023-08-04 22:46:40,0.887s,PASSED
+"comment(""When he logins to CURA system"")",Chrome 115.0.0.0,,,2023-08-04 22:46:40,2023-08-04 22:46:40,0.002s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 115.0.0.0,,,2023-08-04 22:46:40,2023-08-04 22:46:42,1.808s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 115.0.0.0,,,2023-08-04 22:46:42,2023-08-04 22:46:42,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 115.0.0.0,,,2023-08-04 22:46:42,2023-08-04 22:46:42,0.398s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-04 22:46:42,2023-08-04 22:46:43,0.651s,PASSED
