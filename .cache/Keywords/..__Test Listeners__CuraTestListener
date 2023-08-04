@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D6BC01D27536AC11EFC1690E1DD7B246",
+  "keywordClasses": [
+    {
+      "name": "CuraTestListener",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
