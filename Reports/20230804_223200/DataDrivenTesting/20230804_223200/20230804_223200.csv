@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTesting,Chrome 115.0.0.0,,,2023-08-04 22:32:03,2023-08-04 22:33:17,1m - 13.911s,PASSED
+,,,,,,,
+Test Cases/TC4_DataDrivenTesting,Chrome 115.0.0.0,,,2023-08-04 22:32:03,2023-08-04 22:32:30,26.964s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 115.0.0.0,,,2023-08-04 22:32:03,2023-08-04 22:32:20,17.145s,ERROR
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 115.0.0.0,,,2023-08-04 22:32:21,2023-08-04 22:32:25,3.785s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 115.0.0.0,,,2023-08-04 22:32:25,2023-08-04 22:32:25,0.419s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 115.0.0.0,,,2023-08-04 22:32:25,2023-08-04 22:32:26,1.111s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 115.0.0.0,,,2023-08-04 22:32:26,2023-08-04 22:32:27,0.967s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 115.0.0.0,,,2023-08-04 22:32:27,2023-08-04 22:32:27,0.456s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 115.0.0.0,,,2023-08-04 22:32:27,2023-08-04 22:32:29,1.805s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 115.0.0.0,,,2023-08-04 22:32:29,2023-08-04 22:32:29,0.040s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-04 22:32:29,2023-08-04 22:32:30,0.664s,PASSED
+,,,,,,,
+Test Cases/TC4_DataDrivenTesting,Chrome 115.0.0.0,,,2023-08-04 22:32:30,2023-08-04 22:32:59,29.294s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 115.0.0.0,,,2023-08-04 22:32:30,2023-08-04 22:32:46,16.372s,ERROR
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 115.0.0.0,,,2023-08-04 22:32:46,2023-08-04 22:32:50,3.638s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 115.0.0.0,,,2023-08-04 22:32:50,2023-08-04 22:32:50,0.350s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 115.0.0.0,,,2023-08-04 22:32:50,2023-08-04 22:32:51,0.941s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 115.0.0.0,,,2023-08-04 22:32:51,2023-08-04 22:32:52,0.886s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 115.0.0.0,,,2023-08-04 22:32:52,2023-08-04 22:32:53,0.383s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 115.0.0.0,,,2023-08-04 22:32:53,2023-08-04 22:32:59,6.036s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 115.0.0.0,,,2023-08-04 22:32:59,2023-08-04 22:32:59,0.007s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-04 22:32:59,2023-08-04 22:32:59,0.654s,PASSED
+,,,,,,,
+Test Cases/TC4_DataDrivenTesting,Chrome 115.0.0.0,,,2023-08-04 22:32:59,2023-08-04 22:33:17,17.224s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 115.0.0.0,,,2023-08-04 22:32:59,2023-08-04 22:33:11,11.415s,ERROR
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 115.0.0.0,,,2023-08-04 22:33:11,2023-08-04 22:33:12,1.413s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 115.0.0.0,,,2023-08-04 22:33:12,2023-08-04 22:33:13,0.361s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 115.0.0.0,,,2023-08-04 22:33:13,2023-08-04 22:33:13,0.868s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 115.0.0.0,,,2023-08-04 22:33:13,2023-08-04 22:33:14,0.846s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/h2_Login""), ""Login"")",Chrome 115.0.0.0,,,2023-08-04 22:33:14,2023-08-04 22:33:15,0.370s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 115.0.0.0,,,2023-08-04 22:33:15,2023-08-04 22:33:16,1.258s,PASSED
+"comment(""Then he should be able to login successfully"")",Chrome 115.0.0.0,,,2023-08-04 22:33:16,2023-08-04 22:33:16,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 115.0.0.0,,,2023-08-04 22:33:16,2023-08-04 22:33:17,0.674s,PASSED
