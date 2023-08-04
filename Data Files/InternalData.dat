@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New Test Data</name>
+   <name>InternalData</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>05404c1a-c007-42ee-8cee-02639f52e2fd</dataFileGUID>
+   <dataFileGUID>74f194cc-421b-4787-9924-4271a7c1e2d1</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>Appointment+Confirmation</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>confirmation</name>
+      <size>1</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
